@@ -10,7 +10,7 @@ export default function SkillCard() {
         <div className="flex-1">
           <h1 className="text-2xl font-semibold">Fact of the Day</h1>
           {loading && (
-            <p className="mt-4 text-sm text-gray-500">Loading a new skill... ✨</p>
+            <p className="mt-4 text-sm text-gray-500">Loading a new fact... ✨</p>
           )}
 
           {error && (
